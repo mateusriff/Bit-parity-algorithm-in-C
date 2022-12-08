@@ -5,11 +5,11 @@ As output, it prints two messages. The first one is the number passed as an argu
 
 ``The informed number was: 64 -> 01000000`` 
 
-The second message varies. If the number of 1-bits is odd, changes are made to the 8th bit and the number this new binary notation represents precedes it in the second part of the output:
+The second message varies. If the number of 1-bits is odd, changes are made to the 8th bit and the number this new binary notation represents precedes it in the second part of the output. The number of 1-bits in 64 is odd, therefore the message is:
 
 ``The new number is: 192 -> 11000000``
 
-If the number of 1-bits is already even, as would be the case for 65, the second message will instead be:
+If the number of 1-bits was already even, as would be the case for 65, the second message would instead be:
 
 ``The number is already even`` 
 
